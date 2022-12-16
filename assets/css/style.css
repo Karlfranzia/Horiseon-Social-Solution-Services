@@ -106,32 +106,26 @@ background-color: #217baa;
 /*middle sections*/
 
 /*sidebar sections*/
-    #benefits {
-        margin-right: 20px;
-        padding: 20px;
-        clear: both;
-        float: right;
-        width: 20%;
-        height: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
-    }
-    
-    .benefits {
-        margin-bottom: 32px;
-        color: #ffffff;
+#benefits {
+    margin-right: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff; 
+    text-align: center;
+}
+
+.benefits > * {
+   padding: 15px;
     }
 
-    .benefits h3 {
-        margin-bottom: 10px;
-        text-align: center;
-    }
-
-    .benefits img {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;
-    }
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
 /*sidebar sections*/
 
 /*footer section with copyright*/
